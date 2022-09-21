@@ -134,7 +134,7 @@ body {
 .footer__list {
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 1.5em;
     margin: 2em 0;
 }
 
@@ -158,4 +158,8 @@ body {
 .list__link a {
     text-decoration: none;
     color: var(--branco-principal);
+}
+
+.list__link a:hover {
+    color: var(--botao-azul)
 }
