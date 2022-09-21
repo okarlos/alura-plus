@@ -1,0 +1,161 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: URL("img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.container__box {
+    margin: 0 4em;
+    text-align: center;
+}
+
+.container__title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__image {
+    margin: 1em 0 2em 0;
+}
+
+.container__button {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.button_second {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container_note {
+    font-size: 12px;
+    color: var(--cinza-secundario)
+}
+
+.second {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.second_image {
+    width: 80%;
+}
+
+.description__title {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.description__content {
+    color: var(--cinza-secundario);
+}
+
+.button_third {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__description {
+    padding: 1em;
+}
+
+.devices {
+    margin-top: 8em;
+    text-align: center;
+}
+
+.devices__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+
+.devices__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.devices__list li {
+    list-style: none;
+}
+
+.item_list {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer__logo {
+    margin-top: 8em;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 2em 0;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-secundario)
+}
+
+.footer p+p {
+    margin: 2em 0 5em 0;
+}
+
+.list__link {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--branco-principal)
+}
+
+.list__link a {
+    text-decoration: none;
+    color: var(--branco-principal);
+}
